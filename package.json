@@ -7,13 +7,14 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "autoprefixer": "^10.3.0",
     "tailwindcss": "^2.2.4",
     "vue": "^3.0.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.2",
     "@vue/compiler-sfc": "^3.0.5",
-    "vite": "^2.3.3",
+    "vite": "2.3.7",
     "vue-router": "^4.0.10"
   }
 }

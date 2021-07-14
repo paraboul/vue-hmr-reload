@@ -1,9 +1,10 @@
 import { createWebHistory, createRouter } from "vue-router";
 
-
 const history = createWebHistory()
 
-const Page = () => import("./views/Page.vue");
+import Page from "./views/Page.vue"
+
+// const Page = () => import("./views/Page.vue");
 
 const routeur = createRouter({
     history: history,
